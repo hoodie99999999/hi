@@ -1,0 +1,553 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(river.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+
+}
+.navbar{
+	width: 100%;
+	height: 75px;
+	margin: auto;
+	background: dimgrey;
+	
+}
+.icon{
+	
+	
+	width: 300px;
+	float: left;
+	height: 70px;
+	position: absolute; 
+	top: 8px;;
+	left: 16px;
+	
+
+}
+.logo{
+	color: aqua;
+	font-size: 30px;
+	font-family: Arial;
+	padding-left: 0px;
+	float: left;
+	padding-top: 10px;}
+.menu{
+	width: 1100px;
+	float: left;
+	height: 70px;
+	padding-top: 40px;
+}
+ul{
+	float: right;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	position: absolute; 
+	top: 30px;
+	left: 200px;
+}
+ul li{
+	
+
+	list-style: none;
+	margin: 72px;
+	margin-top: 0px;
+	font-size: 16px;
+	font-family: Arial;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.1s ease-in-out;
+}
+ul li a:hover{
+	color: lightblue
+}
+.search-box{
+          position: absolute;
+          top: 35px;
+          left: 90%;
+          transform: translate(-50%,-50%); 
+          background: white;
+          height: 20px;
+          border-radius: 20px;
+          padding: 10px;}
+         
+      .search-btn{
+          colour: red;
+          position: absolute;
+          top: 25%;
+          left: 80%;
+          float: right;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-item: center;
+          text-decoration: none;
+      }
+      .search-txt{
+          border: none;
+          background: none;
+          outline: none;
+          float: left;
+          padding: 0px;
+          color: black;
+          font-size: 16px;
+          transition: 0.4s;
+          
+          width: 200px;
+      }
+            .paragrah{
+      width: 1200px;
+      height: 5000px;
+     
+      color: aqua;
+      position: relative;
+      top: 70px;
+      
+ }
+ .paragrah .h{
+ 	position: absolute;
+ 	left: 630px;
+ 	top: 80px;
+ 	font-size: 60px;
+ 	text-decoration: underline;
+ }
+ .paragrah .par{
+ 	position: absolute;
+ 	left: 300px;
+ 	top: 500px;
+ 	font-family: Arial;
+ 	font-size: 32px;
+ 	letter-spacing: 1.2px;
+ 	line-height: 30px;
+ 	text-align: center;
+ 	width: 1000px
+ }
+ .me{
+ 	width: 500px;
+ 	height: 300px;
+ 	position: absolute;
+ 	top: 170px;
+ 	left: 550px;
+ }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 800px;
+  position: absolute;
+  top: 700px;
+  left: 400px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: black;
+}
+.fa{
+	width: 500px;
+ 	height: 600px;
+ 	position: absolute;
+ 	top: 900px;
+ 	left: 550px;
+}
+.pr{
+	position: absolute;
+	top: 1500px;
+	left: 600px;
+	text-align: center;
+	font-size: 32px;
+	font-family: Arial;
+}
+.h2{
+	position: absolute;
+	top: 1600px;
+	font-size: 40px;
+	left: 150px;
+	text-decoration: underline;
+}
+.bio{
+	position: absolute;
+	top: 1680px;
+	font-size: 32px;
+	left: 150px;
+	text-align: justify;
+	width: 100%
+}
+.h21{
+	position: absolute;
+	top: 2000px;
+	font-size: 40px;
+	left: 150px;
+	text-decoration: underline;
+}
+.tb{font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 800px;
+  position: absolute;
+  top: 2100px;
+  left: 400px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: black;
+}
+.ed{
+	position: absolute;
+	top: 2400px;
+	font-size: 32px;
+	left: 150px;
+	text-align: justify;
+	width: 100%
+}
+.h22{
+	position: absolute;
+	top: 2730px;
+	font-size: 40px;
+	left: 150px;
+	text-decoration: underline;
+}
+.ho{
+	position: absolute;
+	top: 2800px;
+	font-size: 32px;
+	left: 150px;
+	text-align: justify;
+	width: 100%
+}
+.bk{
+	width: 250px;
+ 	height: 400px;
+ 	position: absolute;
+ 	top: 3100px;
+ 	left: 300px;
+}
+.bi{
+	width: 300px;
+ 	height: 150px;
+ 	position: absolute;
+ 	top: 3200px;
+ 	left: 800px;
+}
+.h23{
+	position: absolute;
+	top: 3500px;
+	font-size: 40px;
+	left: 150px;
+	text-decoration: underline;
+}
+.in{
+	position: absolute;
+	top: 3550px;
+	font-size: 32px;
+	left: 150px;
+	text-align: justify;
+	width: 100%
+}
+.h24{
+	position: absolute;
+	top: 3650px;
+	font-size: 40px;
+	left: 150px;
+	text-decoration: underline;
+}
+.rs{
+	position: absolute;
+	top: 3730px;
+	font-size: 32px;
+	left: 150px;
+	text-align: justify;
+	width: 100%
+}
+.susu{
+	width: 500px;
+ 	height: 700px;
+ 	position: absolute;
+ 	top: 4000px;
+ 	left: 550px;
+}
+ address{
+        position: absolute;
+        top: 4800px;
+        left: 100px;
+        font-size: 32px;
+       }
+
+      @media screen and (max-width: 1200px) {
+        //iphone screen//
+        body{
+        	position: absolute;
+        	left: 0;
+        }
+       .navbar{
+       	width: 1518px;
+       	height: 110px;
+       margin: auto;
+       }
+       .icon{width: 200px;
+	float: left;
+	height: 110px;
+	position: absolute; 
+	top: 0px;;
+	left: 0px;
+	background-color: black;
+}
+ .search-txt{
+          border: none;
+          background: none;
+          outline: none;
+          float: left;
+          padding: 0px;
+          color: black;
+          font-size: 35px;
+          transition: 0.4s;
+          
+          width: 400px;
+      }
+    .search-btn{
+      position: absolute;
+          top: 25%;
+          left: 80%;
+          float: right;
+          width: 40px;
+          height: 40px;
+      font-size: 35px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+        
+          text-decoration: none;
+    }
+       .logo{
+       	font-size: 3.5vw;
+       }
+       ul{
+       	margin-left:8px;
+       }
+       ul li{
+       	margin-left: 16px;
+       }
+       ul li a{
+       	font-size: 4.5vw
+       }
+              
+        .search-box{
+       	  position: absolute;
+          top: 150px;
+        width: 400px;
+           
+          background: white;
+          height: 50px;
+          border-radius: 40px;
+         }
+      .paragrah{
+      width: 1518px;
+      height: 1000px;
+     
+      color: aqua;
+      position: relative;
+      top: 150px;
+      
+ }
+ .paragrah .h{
+ 	position: absolute;
+ 	left: 450px;
+ 	top: 120px;
+ 	font-size: 120px;
+ }
+ .paragrah .par{
+ 	position: absolute;
+ 	left: 200px;
+ 	top: 700px;
+ 	font-family: Arial;
+ 	font-size: 80px;
+ 	letter-spacing: 1.2px;
+ 	line-height: 100px;
+ 	width: 1200px;
+ }
+ .me{
+ 	width: 600px;
+ 	height: 400px;
+ 	position: absolute;
+ 	top: 280px;
+ 	left: 480px;
+ }
+ table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 1200px;
+  position: absolute;
+  top: 1700px;
+  left: 200px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 50px;
+}
+
+tr:nth-child(even) {
+  background-color: black;
+}
+.fa{
+	width: 600px;
+ 	height: 700px;
+ 	position: absolute;
+ 	top: 2450px;
+ 	left: 480px;
+}
+.pr{
+	position: absolute;
+	top: 3200px;
+	left: 300px;
+	text-align: center;
+	font-size: 80px;
+	font-family: Arial;
+}
+.h2{
+	position: absolute;
+	top: 3400px;
+	font-size: 120px;
+	left: 50px;
+	text-decoration: underline;
+}
+.bio{
+	position: absolute;
+	top: 3700px;
+	font-size: 80px;
+	left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+	width: 100%
+}
+.h21{
+	position: absolute;
+	top: 5000px;
+	font-size: 120px;
+	left: 50px;
+	text-decoration: underline;
+}
+.tb{font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 1200px;
+  position: absolute;
+  top: 5200px;
+  left: 100px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: black;
+}
+.ed{
+	position: absolute;
+	top: 6200px;
+	font-size: 80px;
+	left: 20px;
+	right: 20px;
+	text-align: justify;
+	width: 100%
+}
+.h22{
+	position: absolute;
+	top: 7600px;
+	font-size: 120px;
+	left: 50px;
+	text-decoration: underline;
+}
+.ho{
+	position: absolute;
+	top: 7800px;
+	font-size: 80px;
+	left: 20px;
+	right: 20px;
+	text-align: justify;
+	width: 100%
+}
+.bk{
+	width: 450px;
+ 	height: 600px;
+ 	position: absolute;
+ 	top: 9200px;
+ 	left: 300px;
+}
+.bi{
+	width: 500px;
+ 	height: 350px;
+ 	position: absolute;
+ 	top: 9200px;
+ 	left: 800px;
+}
+.h23{
+	position: absolute;
+	top: 10000px;
+	font-size: 120px;
+	left: 50px;
+	text-decoration: underline;
+}
+.in{
+	position: absolute;
+	top: 10200px;
+	font-size: 80px;
+	left: 20px;
+	right: 20px;
+	text-align: justify;
+	width: 100%
+}
+.h24{
+	position: absolute;
+	top: 10600px;
+	font-size: 120px;
+	left: 50px;
+	text-decoration: underline;
+}
+.rs{
+	position: absolute;
+	top: 10800px;
+	font-size: 80px;
+	left: 20px;
+	right: 20px
+	text-align: justify;
+	width: 100%
+}
+.susu{
+	width: 600px;
+ 	height: 800px;
+ 	position: absolute;
+ 	top: 11800px;
+ 	left: 550px;
+}
+address{
+        position: absolute;
+        top: 12600px;
+        left: 100px;
+        font-size: 80px;
+       }
